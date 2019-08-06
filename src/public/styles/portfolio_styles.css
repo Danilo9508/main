@@ -537,9 +537,9 @@ section
 	position: fixed;
 	top: 0;
 	right: -400px;
-	width: 400px;
+	width: 250px;
 	height: 100vh;
-	background: #FFFFFF;
+	background: rgba(116, 115, 115, 0.750);
 	z-index: 11;
 	opacity: 0;
 	-webkit-transition: all 0.3s cubic-bezier(0.7, 0, 0.3, 1);
