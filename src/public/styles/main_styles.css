@@ -386,15 +386,22 @@ section {
 
 .bd-example img {
 	border-radius: 40px;
-	width: 800px;
-	height: 600px;
+	height: 500px;
+}
+
+.bd-example li {
+	background-color: rgba(141, 11, 11, 0.774);
+}
+
+.home hr {	
+	background-color: rgba(141, 11, 11, 0.774);
 }
 
 /*********************************
 3.1.9 Informacion
 *********************************/
 
-.page-section{
+.page-section {
 	padding-top: 50px;
 	background-color: #3b3b3b
 }
@@ -435,6 +442,7 @@ section {
 }
 
 .main_nav ul li.active a {
+	color: rgba(141, 11, 11, 0.774);
 	font-weight: 700;
 }
 
@@ -462,7 +470,7 @@ section {
 }
 
 .search_button:active {
-	background: #301b54;
+	background: rgba(141, 11, 11, 0.486);
 }
 
 .search_form {
@@ -768,7 +776,7 @@ section {
 }
 
 .menu_close:hover i {
-	color: #ffffff;
+	color: rgba(141, 11, 11, 0.774);
 }
 
 .menu ul {
@@ -793,7 +801,7 @@ section {
 	width: 5px;
 	height: 5px;
 	border-radius: 50%;
-	background: #ffffff;
+	background: rgba(141, 11, 11, 0.774);
 	content: '';
 }
 
@@ -811,7 +819,7 @@ section {
 }
 
 .menu ul li a:hover {
-	color: #ffffff;
+	color: rgba(141, 11, 11, 0.774);
 }
 
 /*********************************
@@ -872,8 +880,6 @@ section {
 	height: 625px;
 	padding-bottom: 65px;
 }
-
-
 
 .v_slider_image {
 	position: absolute;
@@ -967,8 +973,6 @@ section {
 	align-items: center;
 	height: 35px;
 }
-
-
 
 .v_slider .slick-dots li button {
 	width: 10px;
@@ -1417,7 +1421,6 @@ section {
 	padding-top: 110px;
 	padding-bottom: 141px;
 }
-
 
 .newsletter_title h1 {
 	color: #FFFFFF;
