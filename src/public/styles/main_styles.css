@@ -386,14 +386,14 @@ section {
 
 .bd-example img {
 	border-radius: 40px;
-	height: 500px;
+	height: 450px;
 }
 
 .bd-example li {
 	background-color: rgba(141, 11, 11, 0.774);
 }
 
-.home hr {	
+.home hr {
 	background-color: rgba(141, 11, 11, 0.774);
 }
 
@@ -1006,20 +1006,12 @@ section {
 
 .services {
 	width: 100%;
-	padding-top: 130px;
-	padding-bottom: 184px;
+	padding-top: 50px;
+	padding-bottom: 100px;
 }
 
-.section_title h1 {
-	font-weight: 500;
-}
-
-.section_title span {
-	display: block;
-	font-size: 18px;
-	font-weight: 500;
-	color: #452b78;
-	margin-top: 29px;
+.services h1 {
+	font-size: 40px;
 }
 
 /*********************************
@@ -1058,7 +1050,6 @@ section {
 }
 
 .services_slider .owl-stage-outer {
-	padding-top: 20px;
 	padding-bottom: 60px;
 }
 
@@ -1083,7 +1074,7 @@ section {
 }
 
 .services_slider .owl-item.center .services_item_inner {
-	background: #452b78;
+	background: rgba(139, 8, 8, 0.849);
 }
 
 .services_item {
@@ -1107,6 +1098,7 @@ section {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+	border-radius: 30px;
 	height: 475px;
 	max-width: 100%;
 	box-shadow: 0px 30px 59px rgba(24, 29, 33, 0.23);
@@ -1120,7 +1112,7 @@ section {
 }
 
 .services_slider .owl-item.active.center .services_item_inner {
-	height: 663px;
+	height: 450px;
 }
 
 .service_item_content {
@@ -1151,6 +1143,7 @@ section {
 	position: absolute;
 	bottom: -94px;
 	left: 0;
+	border-radius: 20px;
 	border-color: #FFFFFF;
 	color: #FFFFFF;
 	visibility: hidden;
@@ -1171,7 +1164,7 @@ section {
 }
 
 .service_item_button:hover a {
-	color: #452b78;
+	color: rgba(141, 11, 11, 0.774);
 }
 
 .services_slider .owl-item.center .services_item .services_item_inner h2 {
@@ -1203,12 +1196,12 @@ section {
 .service_item_icon .icon {
 	font-size: 40px;
 	line-height: 1;
-	color: #452b78;
+	color: rgba(141, 11, 11, 0.774);
 }
 
 .services_slider .owl-item.active.center .services_item_inner .service_item_icon .icon {
 	font-size: 50px;
-	color: #9c83ce;
+	color: #000000;
 }
 
 .services_slider .owl-item.center .services_item .services_item_inner .service_item_icon {
@@ -1267,11 +1260,11 @@ section {
 
 .services_slider_nav i {
 	font-size: 18px;
-	color: #d4caeb;
+	color: #000000;
 }
 
 .services_slider_nav:hover i {
-	color: #452b77;
+	color: rgba(141, 11, 11, 0.774);
 }
 
 /*********************************
@@ -1279,8 +1272,8 @@ section {
 *********************************/
 
 .features {
-	padding-top: 100px;
-	padding-bottom: 50px;
+	padding-top: 50px;
+	padding-bottom: 60px;
 	background: #e4e3e3;
 }
 
@@ -1315,6 +1308,10 @@ section {
 
 .features_button_2 {
 	display: none;
+}
+
+.features h1 {
+	font-size: 40px;
 }
 
 /*********************************
