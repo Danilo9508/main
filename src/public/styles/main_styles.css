@@ -105,12 +105,12 @@ a, a:hover, a:visited, a:active, a:link {
 
 p a:active {
 	position: relative;
-	color: #FF6347;
+	color: rgb(219, 219, 219);
 }
 
 p a:hover {
 	color: #FFFFFF;
-	background: #ffa07f;
+	background: rgb(219, 219, 219);
 }
 
 p a:hover::after {
@@ -118,12 +118,13 @@ p a:hover::after {
 }
 
 ::selection {
-	background: #ffd9bf;
-	color: #ff6b09;
+	background: #2c2c2c;
+	color: #e9e9e9;
 }
 
 p::selection {
-	background: #ffd9bf;
+	background: #2c2c2c;
+	color: #e9e9e9;
 }
 
 h1 {
@@ -152,8 +153,6 @@ h1, h2, h3, h4, h5, h6 {
 	-webkit-text-shadow: rgba(0, 0, 0, .01) 0 0 1px;
 	text-shadow: rgba(0, 0, 0, .01) 0 0 1px;
 }
-
-h1::selection, h2::selection, h3::selection, h4::selection, h5::selection, h6::selection {}
 
 ::-webkit-input-placeholder {
 	font-size: 14px !important;
@@ -348,7 +347,7 @@ section {
 
 .header.scrolled {
 	height: 80px;
-	background: rgba(27, 11, 51, 0.92);
+	background: rgba(85, 84, 85, 0.52);
 }
 
 /*********************************
@@ -370,13 +369,25 @@ section {
 
 .logo a span {
 	font-weight: 800;
-	color: #ff6b09;
+	color: #afafaf;
 	text-transform: uppercase;
 }
 
 .logo img {
 	width: 150px;
 	height: 50px;
+}
+
+/*Arreglo Carrusel*/
+
+.bd-example div {
+	border-radius: 40px;
+}
+
+.bd-example img {
+	border-radius: 40px;
+	width: 800px;
+	height: 600px;
 }
 
 /*********************************
@@ -800,7 +811,7 @@ section {
 
 .icon_boxes {
 	width: 100%;
-	padding-top: 123px;
+	padding-top: 300px;
 	padding-bottom: 129px;
 }
 
@@ -853,7 +864,7 @@ section {
 	padding-bottom: 65px;
 }
 
-.v_slider_section_image {}
+
 
 .v_slider_image {
 	position: absolute;
@@ -866,12 +877,6 @@ section {
 	right: 0;
 	box-shadow: 0px 45px 59px rgba(24, 29, 33, 0.23);
 }
-
-.v_slider_content {}
-
-.v_slider_container {}
-
-.v_slider {}
 
 .v_slider_item {
 	border: none !important;
@@ -954,7 +959,7 @@ section {
 	height: 35px;
 }
 
-.v_slider .slick-dots li.slick-active {}
+
 
 .v_slider .slick-dots li button {
 	width: 10px;
@@ -1013,9 +1018,10 @@ section {
 }
 
 .services_slider_container {
-	margin-top: 106px;
+	margin-top: 80px;
+	border-radius: 50px;
 	width: 100%;
-	height: 663px;
+	height: 500px;
 	-webkit-transform-style: preserve-3d;
 	-moz-transform-style: preserve-3d;
 	transform-style: preserve-3d;
@@ -1260,9 +1266,9 @@ section {
 *********************************/
 
 .features {
-	padding-top: 120px;
-	padding-bottom: 130px;
-	background: #fafbfb;
+	padding-top: 100px;
+	padding-bottom: 50px;
+	background: #e4e3e3;
 }
 
 .features_row {
@@ -1403,7 +1409,6 @@ section {
 	padding-bottom: 141px;
 }
 
-.newsletter_title {}
 
 .newsletter_title h1 {
 	color: #FFFFFF;
